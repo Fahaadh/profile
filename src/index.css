@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sticky-header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  
+}
+
+#card{
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#skillimg{
+    width: 120px;
+    height: 100px;
+}
+
+#workcard1{
+    width: 350px;
+    height: 250px;
+    color: white;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf54a8iOFkOAb8YZdqIAw6E1aTSDiX4SeTnAEZrzQYHw&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#workcard2{
+    width: 350px;
+    height: 250px;
+    color: white;
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#workcard3{
+    width: 350px;
+    height: 250px;
+    color: white;
+    background-image: url('https://img.freepik.com/premium-photo/tower-metal-coins-black-background_94132-1916.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#workcard4{
+    width: 350px;
+    height: 250px;
+    color: white;
+    background-image: url('https://media.istockphoto.com/id/1288703928/photo/finance-and-economy-chart-for-dollar-gold-euro-currencies-trading-view.jpg?s=612x612&w=0&k=20&c=WsfMa7xGilI8R33eVSuL2YOfvxSihL-67yBiJSrUpnc=');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#workcard5{
+    width: 350px;
+    height: 250px;
+    color: white;
+    background-image: url('https://png.pngtree.com/background/20230519/original/pngtree-different-colored-shopping-bags-are-sitting-on-a-dark-background-picture-image_2669759.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#workcard6{
+    width: 350px;
+    height: 250px;
+    color: white;
+    background-image: url('https://st4.depositphotos.com/1400069/21307/i/450/depositphotos_213075656-stock-photo-young-doctors-medical-uniform-work.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dark-theme{
+   background-color: black;
+   color: white;
+   
+}
+
+.dark-theme h1{
+    color:#FDDA0D ;
+}
+
+.dark-theme h3{
+    color: #FDDA0D ;
+}
+.dark-theme h4{
+    color: #FDDA0D;
+}
+.dark-theme h6{
+    color: black;
+}
+.dark-theme #send{
+    background-color: #FDDA0D;
+    color: black;
+}
+.dark-theme #name{
+    color: white;
+}
+
+
+.light-theme{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+@keyframes slide-from-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-from-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide {
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+  
+  .slide-animation {
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s; /* Delay the animation */
+    animation-fill-mode: forwards;
+  }
+  
+  .animate-slide:nth-child(odd) {
+    animation-name: slide-from-left;
+  }
+  
+  .animate-slide:nth-child(even) {
+    animation-name: slide-from-right;
+  }
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
